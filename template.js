@@ -27,6 +27,7 @@ module.exports = function(pts, max_angle_delta) {
 		}];
 	}
 
+	abmag = Math.sqrt(Math.pow(pts[1][X] - pts[0][X], 2) + Math.pow(pts[1][Y] - pts[0][Y], 2));
 	for (i = 1, n = pts.length - 1; i < n; i++) {
 		a = pts[i - 1];
 		b = pts[i];
@@ -35,7 +36,6 @@ module.exports = function(pts, max_angle_delta) {
 		aby = b[Y] - a[Y];
 		bcx = c[X] - b[X];
 		bcy = c[Y] - b[Y];
-		abmag = Math.sqrt(abx * abx + aby * aby);
 		bcmag = Math.sqrt(bcx * bcx + bcy * bcy);
 		d += abmag;
 
@@ -54,6 +54,7 @@ module.exports = function(pts, max_angle_delta) {
 			d_start = d;
 			cur_angles = [dt];
 		}
+		abmag = bcmag;
 	}
 
 	cur_angles.push(null);
