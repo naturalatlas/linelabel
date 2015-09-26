@@ -1,0 +1,7 @@
+Thumbs.db
+.DS_Store
+out.svg
+npm-debug.log
+lcov.info
+.nyc_output
+node_modules

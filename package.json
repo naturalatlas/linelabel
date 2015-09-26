@@ -1,0 +1,34 @@
+{
+	"name": "linelabel",
+	"version": "0.0.0",
+	"description": "Find straight parts of a line for labeling",
+	"main": "index.js",
+	"scripts": {
+		"coverage": "tap test/index.js --reporter=silent --cov --coverage-report=text-lcov > lcov.info",
+		"build": "node ./misc/compile.js",
+		"test": "npm run build && node test/visual.js && tap test/index.js && eslint --fix ./template.js"
+	},
+	"files": [
+		"LICENSE",
+		"index.js",
+		"xy.js"
+	],
+	"keywords": [
+		"line",
+		"path",
+		"labeling",
+		"svg",
+		"layout",
+		"straightness",
+		"curvature"
+	],
+	"author": "Brian Reavis <brian@naturalatlas.com>",
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"eslint": "^1.5.1",
+		"eslint-config-naturalatlas": "^0.1.0",
+		"pixl-xml": "^1.0.4",
+		"tap": "^1.4.1",
+		"xml2js": "^0.4.12"
+	}
+}

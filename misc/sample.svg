@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="760px" height="400px" viewBox="0 0 760 400" enable-background="new 0 0 760 400" xml:space="preserve">
+  <rect fill="#FFFFFF" width="760" height="400"/>
+  <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="20,241 100,156 101,156 102,156 182,241
+	260,156 482,260 704,168 "/>
+  <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="22,364 47,347 62,339 82,339 100,351.5
+	120,357 137,351.5 167,339 190,326 216,326 221,336 216,345 212,354 213,359 221,360 236,355 242,345 249,331 263,326 279,326
+	279,339 260,357 258,364 293,378 493,374 397,320 384,305 386,279 418,299 445,320 477,303 482,321 499,285 499,345 530,290
+	544,332 552,332 565,341 600,313 627,290 648,323 662,326 665,316 694,368 735,374 749,348 "/>
+  <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="12,105 72,105 155,105 327,105 "/>
+  <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="12,68 27,68 43,68 63,68 "/>
+  <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="425.9,68 432.9,43 441.4,78 445.9,32
+	462.9,71 466.9,32 472.9,44 482.9,38 489.9,49 501.9,32 505.9,55 518.9,49 527.9,45 537.9,50 545.9,45 556.9,49 579,48 603.9,38
+	633,34 664,36 751,62 "/>
+  <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="108,78.2 117,63.1 130,55.1 153,45 173,45
+	183,55.2 201,62 226,62 242,55 278,45 296,45 327,45 362,45 379,36 413,28 "/>
+  <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="479,163 474,172 474,182 479,188 493,194
+	507,188 514,174 514,152 490,134 460,129 443,138 436,156 436,172 445,194 459,200 475,208 508,214 525,214 544,200 551,182
+	551,163 551,146 551,138 540,121 526,105 502,99 464,98 441,106 423,121 413,139 400,166 "/>
+  <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="21,310 80,293 109,288 134,289 155,298
+	187,307 207,305 314,284 330,268 353,236 306,218 291,243 271,258 242,269 199,278 165,269 138,257 118,256 86,261 21,277 "/>
+  <polyline fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="617,141 623,90 631,142 637,88 645,143
+	654,87 659,141 "/>
+  <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="12" y1="131" x2="327" y2="131"/>
+  <g id="output">
+    <path d="M260 156 L482 260" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line1"/>
+    <path d="M482 260 L704 168" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line2"/>
+    <path d="M22 364 L47 347 L62 339 L82 339 L100 351.5 L120 357 L137 351.5 L167 339 L190 326 L216 326" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line3"/>
+    <path d="M258 364 L293 378 L493 374" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line4"/>
+    <path d="M12 105 L72 105 L155 105 L327 105" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line5"/>
+    <path d="M545.9 45 L556.9 49 L579 48 L603.9 38 L633 34 L664 36 L751 62" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line6"/>
+    <path d="M173 45 L183 55.2 L201 62 L226 62 L242 55 L278 45 L296 45 L327 45 L362 45 L379 36 L413 28" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line7"/>
+    <path d="M445 194 L459 200 L475 208 L508 214 L525 214 L544 200 L551 182 L551 163 L551 146 L551 138 L540 121 L526 105 L502 99 L464 98 L441 106 L423 121 L413 139 L400 166" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line8"/>
+    <path d="M21 310 L80 293 L109 288 L134 289 L155 298 L187 307 L207 305 L314 284 L330 268 L353 236" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line9"/>
+    <path d="M306 218 L291 243 L271 258 L242 269 L199 278 L165 269 L138 257 L118 256 L86 261 L21 277" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line10"/>
+    <circle r="2" fill="#000000" cx="20" cy="241"/>
+    <circle r="1" fill="#ffffff" cx="20" cy="241"/>
+    <circle r="2" fill="#000000" cx="100" cy="156"/>
+    <circle r="1" fill="#ffffff" cx="100" cy="156"/>
+    <circle r="2" fill="#000000" cx="101" cy="156"/>
+    <circle r="1" fill="#ffffff" cx="101" cy="156"/>
+    <circle r="2" fill="#000000" cx="102" cy="156"/>
+    <circle r="1" fill="#ffffff" cx="102" cy="156"/>
+    <circle r="2" fill="#000000" cx="182" cy="241"/>
+    <circle r="1" fill="#ffffff" cx="182" cy="241"/>
+    <circle r="2" fill="#000000" cx="260" cy="156"/>
+    <circle r="1" fill="#ffffff" cx="260" cy="156"/>
+    <circle r="2" fill="#000000" cx="482" cy="260"/>
+    <circle r="1" fill="#ffffff" cx="482" cy="260"/>
+    <circle r="2" fill="#000000" cx="704" cy="168"/>
+    <circle r="1" fill="#ffffff" cx="704" cy="168"/>
+    <circle r="4" fill="#008000" cx="260" cy="156"/>
+    <circle r="2" fill="#ffffff" cx="260" cy="156"/>
+    <circle r="4" fill="#008000" cx="482" cy="260"/>
+    <circle r="2" fill="#ffffff" cx="482" cy="260"/>
+    <circle r="4" fill="#008000" cx="482" cy="260"/>
+    <circle r="2" fill="#ffffff" cx="482" cy="260"/>
+    <circle r="4" fill="#008000" cx="704" cy="168"/>
+    <circle r="2" fill="#ffffff" cx="704" cy="168"/>
+    <circle r="2" fill="#000000" cx="22" cy="364"/>
+    <circle r="1" fill="#ffffff" cx="22" cy="364"/>
+    <circle r="2" fill="#000000" cx="47" cy="347"/>
+    <circle r="1" fill="#ffffff" cx="47" cy="347"/>
+    <circle r="2" fill="#000000" cx="62" cy="339"/>
+    <circle r="1" fill="#ffffff" cx="62" cy="339"/>
+    <circle r="2" fill="#000000" cx="82" cy="339"/>
+    <circle r="1" fill="#ffffff" cx="82" cy="339"/>
+    <circle r="2" fill="#000000" cx="100" cy="351.5"/>
+    <circle r="1" fill="#ffffff" cx="100" cy="351.5"/>
+    <circle r="2" fill="#000000" cx="120" cy="357"/>
+    <circle r="1" fill="#ffffff" cx="120" cy="357"/>
+    <circle r="2" fill="#000000" cx="137" cy="351.5"/>
+    <circle r="1" fill="#ffffff" cx="137" cy="351.5"/>
+    <circle r="2" fill="#000000" cx="167" cy="339"/>
+    <circle r="1" fill="#ffffff" cx="167" cy="339"/>
+    <circle r="2" fill="#000000" cx="190" cy="326"/>
+    <circle r="1" fill="#ffffff" cx="190" cy="326"/>
+    <circle r="2" fill="#000000" cx="216" cy="326"/>
+    <circle r="1" fill="#ffffff" cx="216" cy="326"/>
+    <circle r="2" fill="#000000" cx="221" cy="336"/>
+    <circle r="1" fill="#ffffff" cx="221" cy="336"/>
+    <circle r="2" fill="#000000" cx="216" cy="345"/>
+    <circle r="1" fill="#ffffff" cx="216" cy="345"/>
+    <circle r="2" fill="#000000" cx="212" cy="354"/>
+    <circle r="1" fill="#ffffff" cx="212" cy="354"/>
+    <circle r="2" fill="#000000" cx="213" cy="359"/>
+    <circle r="1" fill="#ffffff" cx="213" cy="359"/>
+    <circle r="2" fill="#000000" cx="221" cy="360"/>
+    <circle r="1" fill="#ffffff" cx="221" cy="360"/>
+    <circle r="2" fill="#000000" cx="236" cy="355"/>
+    <circle r="1" fill="#ffffff" cx="236" cy="355"/>
+    <circle r="2" fill="#000000" cx="242" cy="345"/>
+    <circle r="1" fill="#ffffff" cx="242" cy="345"/>
+    <circle r="2" fill="#000000" cx="249" cy="331"/>
+    <circle r="1" fill="#ffffff" cx="249" cy="331"/>
+    <circle r="2" fill="#000000" cx="263" cy="326"/>
+    <circle r="1" fill="#ffffff" cx="263" cy="326"/>
+    <circle r="2" fill="#000000" cx="279" cy="326"/>
+    <circle r="1" fill="#ffffff" cx="279" cy="326"/>
+    <circle r="2" fill="#000000" cx="279" cy="339"/>
+    <circle r="1" fill="#ffffff" cx="279" cy="339"/>
+    <circle r="2" fill="#000000" cx="260" cy="357"/>
+    <circle r="1" fill="#ffffff" cx="260" cy="357"/>
+    <circle r="2" fill="#000000" cx="258" cy="364"/>
+    <circle r="1" fill="#ffffff" cx="258" cy="364"/>
+    <circle r="2" fill="#000000" cx="293" cy="378"/>
+    <circle r="1" fill="#ffffff" cx="293" cy="378"/>
+    <circle r="2" fill="#000000" cx="493" cy="374"/>
+    <circle r="1" fill="#ffffff" cx="493" cy="374"/>
+    <circle r="2" fill="#000000" cx="397" cy="320"/>
+    <circle r="1" fill="#ffffff" cx="397" cy="320"/>
+    <circle r="2" fill="#000000" cx="384" cy="305"/>
+    <circle r="1" fill="#ffffff" cx="384" cy="305"/>
+    <circle r="2" fill="#000000" cx="386" cy="279"/>
+    <circle r="1" fill="#ffffff" cx="386" cy="279"/>
+    <circle r="2" fill="#000000" cx="418" cy="299"/>
+    <circle r="1" fill="#ffffff" cx="418" cy="299"/>
+    <circle r="2" fill="#000000" cx="445" cy="320"/>
+    <circle r="1" fill="#ffffff" cx="445" cy="320"/>
+    <circle r="2" fill="#000000" cx="477" cy="303"/>
+    <circle r="1" fill="#ffffff" cx="477" cy="303"/>
+    <circle r="2" fill="#000000" cx="482" cy="321"/>
+    <circle r="1" fill="#ffffff" cx="482" cy="321"/>
+    <circle r="2" fill="#000000" cx="499" cy="285"/>
+    <circle r="1" fill="#ffffff" cx="499" cy="285"/>
+    <circle r="2" fill="#000000" cx="499" cy="345"/>
+    <circle r="1" fill="#ffffff" cx="499" cy="345"/>
+    <circle r="2" fill="#000000" cx="530" cy="290"/>
+    <circle r="1" fill="#ffffff" cx="530" cy="290"/>
+    <circle r="2" fill="#000000" cx="544" cy="332"/>
+    <circle r="1" fill="#ffffff" cx="544" cy="332"/>
+    <circle r="2" fill="#000000" cx="552" cy="332"/>
+    <circle r="1" fill="#ffffff" cx="552" cy="332"/>
+    <circle r="2" fill="#000000" cx="565" cy="341"/>
+    <circle r="1" fill="#ffffff" cx="565" cy="341"/>
+    <circle r="2" fill="#000000" cx="600" cy="313"/>
+    <circle r="1" fill="#ffffff" cx="600" cy="313"/>
+    <circle r="2" fill="#000000" cx="627" cy="290"/>
+    <circle r="1" fill="#ffffff" cx="627" cy="290"/>
+    <circle r="2" fill="#000000" cx="648" cy="323"/>
+    <circle r="1" fill="#ffffff" cx="648" cy="323"/>
+    <circle r="2" fill="#000000" cx="662" cy="326"/>
+    <circle r="1" fill="#ffffff" cx="662" cy="326"/>
+    <circle r="2" fill="#000000" cx="665" cy="316"/>
+    <circle r="1" fill="#ffffff" cx="665" cy="316"/>
+    <circle r="2" fill="#000000" cx="694" cy="368"/>
+    <circle r="1" fill="#ffffff" cx="694" cy="368"/>
+    <circle r="2" fill="#000000" cx="735" cy="374"/>
+    <circle r="1" fill="#ffffff" cx="735" cy="374"/>
+    <circle r="2" fill="#000000" cx="749" cy="348"/>
+    <circle r="1" fill="#ffffff" cx="749" cy="348"/>
+    <circle r="4" fill="#008000" cx="22" cy="364"/>
+    <circle r="2" fill="#ffffff" cx="22" cy="364"/>
+    <circle r="4" fill="#008000" cx="216" cy="326"/>
+    <circle r="2" fill="#ffffff" cx="216" cy="326"/>
+    <circle r="4" fill="#008000" cx="258" cy="364"/>
+    <circle r="2" fill="#ffffff" cx="258" cy="364"/>
+    <circle r="4" fill="#008000" cx="493" cy="374"/>
+    <circle r="2" fill="#ffffff" cx="493" cy="374"/>
+    <circle r="2" fill="#000000" cx="12" cy="105"/>
+    <circle r="1" fill="#ffffff" cx="12" cy="105"/>
+    <circle r="2" fill="#000000" cx="72" cy="105"/>
+    <circle r="1" fill="#ffffff" cx="72" cy="105"/>
+    <circle r="2" fill="#000000" cx="155" cy="105"/>
+    <circle r="1" fill="#ffffff" cx="155" cy="105"/>
+    <circle r="2" fill="#000000" cx="327" cy="105"/>
+    <circle r="1" fill="#ffffff" cx="327" cy="105"/>
+    <circle r="4" fill="#008000" cx="12" cy="105"/>
+    <circle r="2" fill="#ffffff" cx="12" cy="105"/>
+    <circle r="4" fill="#008000" cx="327" cy="105"/>
+    <circle r="2" fill="#ffffff" cx="327" cy="105"/>
+    <circle r="2" fill="#000000" cx="12" cy="68"/>
+    <circle r="1" fill="#ffffff" cx="12" cy="68"/>
+    <circle r="2" fill="#000000" cx="27" cy="68"/>
+    <circle r="1" fill="#ffffff" cx="27" cy="68"/>
+    <circle r="2" fill="#000000" cx="43" cy="68"/>
+    <circle r="1" fill="#ffffff" cx="43" cy="68"/>
+    <circle r="2" fill="#000000" cx="63" cy="68"/>
+    <circle r="1" fill="#ffffff" cx="63" cy="68"/>
+    <circle r="2" fill="#000000" cx="425.9" cy="68"/>
+    <circle r="1" fill="#ffffff" cx="425.9" cy="68"/>
+    <circle r="2" fill="#000000" cx="432.9" cy="43"/>
+    <circle r="1" fill="#ffffff" cx="432.9" cy="43"/>
+    <circle r="2" fill="#000000" cx="441.4" cy="78"/>
+    <circle r="1" fill="#ffffff" cx="441.4" cy="78"/>
+    <circle r="2" fill="#000000" cx="445.9" cy="32"/>
+    <circle r="1" fill="#ffffff" cx="445.9" cy="32"/>
+    <circle r="2" fill="#000000" cx="462.9" cy="71"/>
+    <circle r="1" fill="#ffffff" cx="462.9" cy="71"/>
+    <circle r="2" fill="#000000" cx="466.9" cy="32"/>
+    <circle r="1" fill="#ffffff" cx="466.9" cy="32"/>
+    <circle r="2" fill="#000000" cx="472.9" cy="44"/>
+    <circle r="1" fill="#ffffff" cx="472.9" cy="44"/>
+    <circle r="2" fill="#000000" cx="482.9" cy="38"/>
+    <circle r="1" fill="#ffffff" cx="482.9" cy="38"/>
+    <circle r="2" fill="#000000" cx="489.9" cy="49"/>
+    <circle r="1" fill="#ffffff" cx="489.9" cy="49"/>
+    <circle r="2" fill="#000000" cx="501.9" cy="32"/>
+    <circle r="1" fill="#ffffff" cx="501.9" cy="32"/>
+    <circle r="2" fill="#000000" cx="505.9" cy="55"/>
+    <circle r="1" fill="#ffffff" cx="505.9" cy="55"/>
+    <circle r="2" fill="#000000" cx="518.9" cy="49"/>
+    <circle r="1" fill="#ffffff" cx="518.9" cy="49"/>
+    <circle r="2" fill="#000000" cx="527.9" cy="45"/>
+    <circle r="1" fill="#ffffff" cx="527.9" cy="45"/>
+    <circle r="2" fill="#000000" cx="537.9" cy="50"/>
+    <circle r="1" fill="#ffffff" cx="537.9" cy="50"/>
+    <circle r="2" fill="#000000" cx="545.9" cy="45"/>
+    <circle r="1" fill="#ffffff" cx="545.9" cy="45"/>
+    <circle r="2" fill="#000000" cx="556.9" cy="49"/>
+    <circle r="1" fill="#ffffff" cx="556.9" cy="49"/>
+    <circle r="2" fill="#000000" cx="579" cy="48"/>
+    <circle r="1" fill="#ffffff" cx="579" cy="48"/>
+    <circle r="2" fill="#000000" cx="603.9" cy="38"/>
+    <circle r="1" fill="#ffffff" cx="603.9" cy="38"/>
+    <circle r="2" fill="#000000" cx="633" cy="34"/>
+    <circle r="1" fill="#ffffff" cx="633" cy="34"/>
+    <circle r="2" fill="#000000" cx="664" cy="36"/>
+    <circle r="1" fill="#ffffff" cx="664" cy="36"/>
+    <circle r="2" fill="#000000" cx="751" cy="62"/>
+    <circle r="1" fill="#ffffff" cx="751" cy="62"/>
+    <circle r="4" fill="#008000" cx="545.9" cy="45"/>
+    <circle r="2" fill="#ffffff" cx="545.9" cy="45"/>
+    <circle r="4" fill="#008000" cx="751" cy="62"/>
+    <circle r="2" fill="#ffffff" cx="751" cy="62"/>
+    <circle r="2" fill="#000000" cx="108" cy="78.2"/>
+    <circle r="1" fill="#ffffff" cx="108" cy="78.2"/>
+    <circle r="2" fill="#000000" cx="117" cy="63.1"/>
+    <circle r="1" fill="#ffffff" cx="117" cy="63.1"/>
+    <circle r="2" fill="#000000" cx="130" cy="55.1"/>
+    <circle r="1" fill="#ffffff" cx="130" cy="55.1"/>
+    <circle r="2" fill="#000000" cx="153" cy="45"/>
+    <circle r="1" fill="#ffffff" cx="153" cy="45"/>
+    <circle r="2" fill="#000000" cx="173" cy="45"/>
+    <circle r="1" fill="#ffffff" cx="173" cy="45"/>
+    <circle r="2" fill="#000000" cx="183" cy="55.2"/>
+    <circle r="1" fill="#ffffff" cx="183" cy="55.2"/>
+    <circle r="2" fill="#000000" cx="201" cy="62"/>
+    <circle r="1" fill="#ffffff" cx="201" cy="62"/>
+    <circle r="2" fill="#000000" cx="226" cy="62"/>
+    <circle r="1" fill="#ffffff" cx="226" cy="62"/>
+    <circle r="2" fill="#000000" cx="242" cy="55"/>
+    <circle r="1" fill="#ffffff" cx="242" cy="55"/>
+    <circle r="2" fill="#000000" cx="278" cy="45"/>
+    <circle r="1" fill="#ffffff" cx="278" cy="45"/>
+    <circle r="2" fill="#000000" cx="296" cy="45"/>
+    <circle r="1" fill="#ffffff" cx="296" cy="45"/>
+    <circle r="2" fill="#000000" cx="327" cy="45"/>
+    <circle r="1" fill="#ffffff" cx="327" cy="45"/>
+    <circle r="2" fill="#000000" cx="362" cy="45"/>
+    <circle r="1" fill="#ffffff" cx="362" cy="45"/>
+    <circle r="2" fill="#000000" cx="379" cy="36"/>
+    <circle r="1" fill="#ffffff" cx="379" cy="36"/>
+    <circle r="2" fill="#000000" cx="413" cy="28"/>
+    <circle r="1" fill="#ffffff" cx="413" cy="28"/>
+    <circle r="4" fill="#008000" cx="173" cy="45"/>
+    <circle r="2" fill="#ffffff" cx="173" cy="45"/>
+    <circle r="4" fill="#008000" cx="413" cy="28"/>
+    <circle r="2" fill="#ffffff" cx="413" cy="28"/>
+    <circle r="2" fill="#000000" cx="479" cy="163"/>
+    <circle r="1" fill="#ffffff" cx="479" cy="163"/>
+    <circle r="2" fill="#000000" cx="474" cy="172"/>
+    <circle r="1" fill="#ffffff" cx="474" cy="172"/>
+    <circle r="2" fill="#000000" cx="474" cy="182"/>
+    <circle r="1" fill="#ffffff" cx="474" cy="182"/>
+    <circle r="2" fill="#000000" cx="479" cy="188"/>
+    <circle r="1" fill="#ffffff" cx="479" cy="188"/>
+    <circle r="2" fill="#000000" cx="493" cy="194"/>
+    <circle r="1" fill="#ffffff" cx="493" cy="194"/>
+    <circle r="2" fill="#000000" cx="507" cy="188"/>
+    <circle r="1" fill="#ffffff" cx="507" cy="188"/>
+    <circle r="2" fill="#000000" cx="514" cy="174"/>
+    <circle r="1" fill="#ffffff" cx="514" cy="174"/>
+    <circle r="2" fill="#000000" cx="514" cy="152"/>
+    <circle r="1" fill="#ffffff" cx="514" cy="152"/>
+    <circle r="2" fill="#000000" cx="490" cy="134"/>
+    <circle r="1" fill="#ffffff" cx="490" cy="134"/>
+    <circle r="2" fill="#000000" cx="460" cy="129"/>
+    <circle r="1" fill="#ffffff" cx="460" cy="129"/>
+    <circle r="2" fill="#000000" cx="443" cy="138"/>
+    <circle r="1" fill="#ffffff" cx="443" cy="138"/>
+    <circle r="2" fill="#000000" cx="436" cy="156"/>
+    <circle r="1" fill="#ffffff" cx="436" cy="156"/>
+    <circle r="2" fill="#000000" cx="436" cy="172"/>
+    <circle r="1" fill="#ffffff" cx="436" cy="172"/>
+    <circle r="2" fill="#000000" cx="445" cy="194"/>
+    <circle r="1" fill="#ffffff" cx="445" cy="194"/>
+    <circle r="2" fill="#000000" cx="459" cy="200"/>
+    <circle r="1" fill="#ffffff" cx="459" cy="200"/>
+    <circle r="2" fill="#000000" cx="475" cy="208"/>
+    <circle r="1" fill="#ffffff" cx="475" cy="208"/>
+    <circle r="2" fill="#000000" cx="508" cy="214"/>
+    <circle r="1" fill="#ffffff" cx="508" cy="214"/>
+    <circle r="2" fill="#000000" cx="525" cy="214"/>
+    <circle r="1" fill="#ffffff" cx="525" cy="214"/>
+    <circle r="2" fill="#000000" cx="544" cy="200"/>
+    <circle r="1" fill="#ffffff" cx="544" cy="200"/>
+    <circle r="2" fill="#000000" cx="551" cy="182"/>
+    <circle r="1" fill="#ffffff" cx="551" cy="182"/>
+    <circle r="2" fill="#000000" cx="551" cy="163"/>
+    <circle r="1" fill="#ffffff" cx="551" cy="163"/>
+    <circle r="2" fill="#000000" cx="551" cy="146"/>
+    <circle r="1" fill="#ffffff" cx="551" cy="146"/>
+    <circle r="2" fill="#000000" cx="551" cy="138"/>
+    <circle r="1" fill="#ffffff" cx="551" cy="138"/>
+    <circle r="2" fill="#000000" cx="540" cy="121"/>
+    <circle r="1" fill="#ffffff" cx="540" cy="121"/>
+    <circle r="2" fill="#000000" cx="526" cy="105"/>
+    <circle r="1" fill="#ffffff" cx="526" cy="105"/>
+    <circle r="2" fill="#000000" cx="502" cy="99"/>
+    <circle r="1" fill="#ffffff" cx="502" cy="99"/>
+    <circle r="2" fill="#000000" cx="464" cy="98"/>
+    <circle r="1" fill="#ffffff" cx="464" cy="98"/>
+    <circle r="2" fill="#000000" cx="441" cy="106"/>
+    <circle r="1" fill="#ffffff" cx="441" cy="106"/>
+    <circle r="2" fill="#000000" cx="423" cy="121"/>
+    <circle r="1" fill="#ffffff" cx="423" cy="121"/>
+    <circle r="2" fill="#000000" cx="413" cy="139"/>
+    <circle r="1" fill="#ffffff" cx="413" cy="139"/>
+    <circle r="2" fill="#000000" cx="400" cy="166"/>
+    <circle r="1" fill="#ffffff" cx="400" cy="166"/>
+    <circle r="4" fill="#008000" cx="445" cy="194"/>
+    <circle r="2" fill="#ffffff" cx="445" cy="194"/>
+    <circle r="4" fill="#008000" cx="400" cy="166"/>
+    <circle r="2" fill="#ffffff" cx="400" cy="166"/>
+    <circle r="2" fill="#000000" cx="21" cy="310"/>
+    <circle r="1" fill="#ffffff" cx="21" cy="310"/>
+    <circle r="2" fill="#000000" cx="80" cy="293"/>
+    <circle r="1" fill="#ffffff" cx="80" cy="293"/>
+    <circle r="2" fill="#000000" cx="109" cy="288"/>
+    <circle r="1" fill="#ffffff" cx="109" cy="288"/>
+    <circle r="2" fill="#000000" cx="134" cy="289"/>
+    <circle r="1" fill="#ffffff" cx="134" cy="289"/>
+    <circle r="2" fill="#000000" cx="155" cy="298"/>
+    <circle r="1" fill="#ffffff" cx="155" cy="298"/>
+    <circle r="2" fill="#000000" cx="187" cy="307"/>
+    <circle r="1" fill="#ffffff" cx="187" cy="307"/>
+    <circle r="2" fill="#000000" cx="207" cy="305"/>
+    <circle r="1" fill="#ffffff" cx="207" cy="305"/>
+    <circle r="2" fill="#000000" cx="314" cy="284"/>
+    <circle r="1" fill="#ffffff" cx="314" cy="284"/>
+    <circle r="2" fill="#000000" cx="330" cy="268"/>
+    <circle r="1" fill="#ffffff" cx="330" cy="268"/>
+    <circle r="2" fill="#000000" cx="353" cy="236"/>
+    <circle r="1" fill="#ffffff" cx="353" cy="236"/>
+    <circle r="2" fill="#000000" cx="306" cy="218"/>
+    <circle r="1" fill="#ffffff" cx="306" cy="218"/>
+    <circle r="2" fill="#000000" cx="291" cy="243"/>
+    <circle r="1" fill="#ffffff" cx="291" cy="243"/>
+    <circle r="2" fill="#000000" cx="271" cy="258"/>
+    <circle r="1" fill="#ffffff" cx="271" cy="258"/>
+    <circle r="2" fill="#000000" cx="242" cy="269"/>
+    <circle r="1" fill="#ffffff" cx="242" cy="269"/>
+    <circle r="2" fill="#000000" cx="199" cy="278"/>
+    <circle r="1" fill="#ffffff" cx="199" cy="278"/>
+    <circle r="2" fill="#000000" cx="165" cy="269"/>
+    <circle r="1" fill="#ffffff" cx="165" cy="269"/>
+    <circle r="2" fill="#000000" cx="138" cy="257"/>
+    <circle r="1" fill="#ffffff" cx="138" cy="257"/>
+    <circle r="2" fill="#000000" cx="118" cy="256"/>
+    <circle r="1" fill="#ffffff" cx="118" cy="256"/>
+    <circle r="2" fill="#000000" cx="86" cy="261"/>
+    <circle r="1" fill="#ffffff" cx="86" cy="261"/>
+    <circle r="2" fill="#000000" cx="21" cy="277"/>
+    <circle r="1" fill="#ffffff" cx="21" cy="277"/>
+    <circle r="4" fill="#008000" cx="21" cy="310"/>
+    <circle r="2" fill="#ffffff" cx="21" cy="310"/>
+    <circle r="4" fill="#008000" cx="353" cy="236"/>
+    <circle r="2" fill="#ffffff" cx="353" cy="236"/>
+    <circle r="4" fill="#008000" cx="306" cy="218"/>
+    <circle r="2" fill="#ffffff" cx="306" cy="218"/>
+    <circle r="4" fill="#008000" cx="21" cy="277"/>
+    <circle r="2" fill="#ffffff" cx="21" cy="277"/>
+    <circle r="2" fill="#000000" cx="617" cy="141"/>
+    <circle r="1" fill="#ffffff" cx="617" cy="141"/>
+    <circle r="2" fill="#000000" cx="623" cy="90"/>
+    <circle r="1" fill="#ffffff" cx="623" cy="90"/>
+    <circle r="2" fill="#000000" cx="631" cy="142"/>
+    <circle r="1" fill="#ffffff" cx="631" cy="142"/>
+    <circle r="2" fill="#000000" cx="637" cy="88"/>
+    <circle r="1" fill="#ffffff" cx="637" cy="88"/>
+    <circle r="2" fill="#000000" cx="645" cy="143"/>
+    <circle r="1" fill="#ffffff" cx="645" cy="143"/>
+    <circle r="2" fill="#000000" cx="654" cy="87"/>
+    <circle r="1" fill="#ffffff" cx="654" cy="87"/>
+    <circle r="2" fill="#000000" cx="659" cy="141"/>
+    <circle r="1" fill="#ffffff" cx="659" cy="141"/>
+  </g>
+  <g id="angles">
+    <text x="260" y="170" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">73°</text>
+    <text x="260" y="170" font-family="Arial" font-size="9">73°</text>
+    <text x="482" y="274" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">48°</text>
+    <text x="482" y="274" font-family="Arial" font-size="9">48°</text>
+    <text x="482" y="274" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">48°</text>
+    <text x="482" y="274" font-family="Arial" font-size="9">48°</text>
+    <text x="47" y="361" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">6°</text>
+    <text x="47" y="361" font-family="Arial" font-size="9">6°</text>
+    <text x="62" y="353" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">28°</text>
+    <text x="62" y="353" font-family="Arial" font-size="9">28°</text>
+    <text x="82" y="353" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">35°</text>
+    <text x="82" y="353" font-family="Arial" font-size="9">35°</text>
+    <text x="100" y="365.5" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">19°</text>
+    <text x="100" y="365.5" font-family="Arial" font-size="9">19°</text>
+    <text x="120" y="371" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">33°</text>
+    <text x="120" y="371" font-family="Arial" font-size="9">33°</text>
+    <text x="137" y="365.5" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">5°</text>
+    <text x="137" y="365.5" font-family="Arial" font-size="9">5°</text>
+    <text x="167" y="353" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">7°</text>
+    <text x="167" y="353" font-family="Arial" font-size="9">7°</text>
+    <text x="190" y="340" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">29°</text>
+    <text x="190" y="340" font-family="Arial" font-size="9">29°</text>
+    <text x="216" y="340" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">63°</text>
+    <text x="216" y="340" font-family="Arial" font-size="9">63°</text>
+    <text x="258" y="378" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">84°</text>
+    <text x="258" y="378" font-family="Arial" font-size="9">84°</text>
+    <text x="293" y="392" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">23°</text>
+    <text x="293" y="392" font-family="Arial" font-size="9">23°</text>
+    <text x="493" y="388" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">149°</text>
+    <text x="493" y="388" font-family="Arial" font-size="9">149°</text>
+    <text x="72" y="119" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">0°</text>
+    <text x="72" y="119" font-family="Arial" font-size="9">0°</text>
+    <text x="155" y="119" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">0°</text>
+    <text x="155" y="119" font-family="Arial" font-size="9">0°</text>
+    <text x="545.9" y="59" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">52°</text>
+    <text x="545.9" y="59" font-family="Arial" font-size="9">52°</text>
+    <text x="556.9" y="63" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">23°</text>
+    <text x="556.9" y="63" font-family="Arial" font-size="9">23°</text>
+    <text x="579" y="62" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">19°</text>
+    <text x="579" y="62" font-family="Arial" font-size="9">19°</text>
+    <text x="603.9" y="52" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">14°</text>
+    <text x="603.9" y="52" font-family="Arial" font-size="9">14°</text>
+    <text x="633" y="48" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">12°</text>
+    <text x="633" y="48" font-family="Arial" font-size="9">12°</text>
+    <text x="664" y="50" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">13°</text>
+    <text x="664" y="50" font-family="Arial" font-size="9">13°</text>
+    <text x="173" y="59" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">46°</text>
+    <text x="173" y="59" font-family="Arial" font-size="9">46°</text>
+    <text x="183" y="69.2" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">25°</text>
+    <text x="183" y="69.2" font-family="Arial" font-size="9">25°</text>
+    <text x="201" y="76" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">21°</text>
+    <text x="201" y="76" font-family="Arial" font-size="9">21°</text>
+    <text x="226" y="76" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">24°</text>
+    <text x="226" y="76" font-family="Arial" font-size="9">24°</text>
+    <text x="242" y="69" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">8°</text>
+    <text x="242" y="69" font-family="Arial" font-size="9">8°</text>
+    <text x="278" y="59" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">16°</text>
+    <text x="278" y="59" font-family="Arial" font-size="9">16°</text>
+    <text x="296" y="59" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">0°</text>
+    <text x="296" y="59" font-family="Arial" font-size="9">0°</text>
+    <text x="327" y="59" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">0°</text>
+    <text x="327" y="59" font-family="Arial" font-size="9">0°</text>
+    <text x="362" y="59" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">28°</text>
+    <text x="362" y="59" font-family="Arial" font-size="9">28°</text>
+    <text x="379" y="50" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">15°</text>
+    <text x="379" y="50" font-family="Arial" font-size="9">15°</text>
+    <text x="445" y="208" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">45°</text>
+    <text x="445" y="208" font-family="Arial" font-size="9">45°</text>
+    <text x="459" y="214" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">3°</text>
+    <text x="459" y="214" font-family="Arial" font-size="9">3°</text>
+    <text x="475" y="222" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">16°</text>
+    <text x="475" y="222" font-family="Arial" font-size="9">16°</text>
+    <text x="508" y="228" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">10°</text>
+    <text x="508" y="228" font-family="Arial" font-size="9">10°</text>
+    <text x="525" y="228" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">36°</text>
+    <text x="525" y="228" font-family="Arial" font-size="9">36°</text>
+    <text x="544" y="214" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">32°</text>
+    <text x="544" y="214" font-family="Arial" font-size="9">32°</text>
+    <text x="551" y="196" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">21°</text>
+    <text x="551" y="196" font-family="Arial" font-size="9">21°</text>
+    <text x="551" y="177" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">0°</text>
+    <text x="551" y="177" font-family="Arial" font-size="9">0°</text>
+    <text x="551" y="160" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">0°</text>
+    <text x="551" y="160" font-family="Arial" font-size="9">0°</text>
+    <text x="551" y="152" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">33°</text>
+    <text x="551" y="152" font-family="Arial" font-size="9">33°</text>
+    <text x="540" y="135" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">8°</text>
+    <text x="540" y="135" font-family="Arial" font-size="9">8°</text>
+    <text x="526" y="119" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">35°</text>
+    <text x="526" y="119" font-family="Arial" font-size="9">35°</text>
+    <text x="502" y="113" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">13°</text>
+    <text x="502" y="113" font-family="Arial" font-size="9">13°</text>
+    <text x="464" y="112" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">21°</text>
+    <text x="464" y="112" font-family="Arial" font-size="9">21°</text>
+    <text x="441" y="120" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">21°</text>
+    <text x="441" y="120" font-family="Arial" font-size="9">21°</text>
+    <text x="423" y="135" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">21°</text>
+    <text x="423" y="135" font-family="Arial" font-size="9">21°</text>
+    <text x="413" y="153" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">3°</text>
+    <text x="413" y="153" font-family="Arial" font-size="9">3°</text>
+    <text x="80" y="307" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">6°</text>
+    <text x="80" y="307" font-family="Arial" font-size="9">6°</text>
+    <text x="109" y="302" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">12°</text>
+    <text x="109" y="302" font-family="Arial" font-size="9">12°</text>
+    <text x="134" y="303" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">21°</text>
+    <text x="134" y="303" font-family="Arial" font-size="9">21°</text>
+    <text x="155" y="312" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">7°</text>
+    <text x="155" y="312" font-family="Arial" font-size="9">7°</text>
+    <text x="187" y="321" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">21°</text>
+    <text x="187" y="321" font-family="Arial" font-size="9">21°</text>
+    <text x="207" y="319" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">5°</text>
+    <text x="207" y="319" font-family="Arial" font-size="9">5°</text>
+    <text x="314" y="298" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">34°</text>
+    <text x="314" y="298" font-family="Arial" font-size="9">34°</text>
+    <text x="330" y="282" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">9°</text>
+    <text x="330" y="282" font-family="Arial" font-size="9">9°</text>
+    <text x="353" y="250" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">105°</text>
+    <text x="353" y="250" font-family="Arial" font-size="9">105°</text>
+    <text x="306" y="232" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">80°</text>
+    <text x="306" y="232" font-family="Arial" font-size="9">80°</text>
+    <text x="291" y="257" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">22°</text>
+    <text x="291" y="257" font-family="Arial" font-size="9">22°</text>
+    <text x="271" y="272" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">16°</text>
+    <text x="271" y="272" font-family="Arial" font-size="9">16°</text>
+    <text x="242" y="283" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">9°</text>
+    <text x="242" y="283" font-family="Arial" font-size="9">9°</text>
+    <text x="199" y="292" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">27°</text>
+    <text x="199" y="292" font-family="Arial" font-size="9">27°</text>
+    <text x="165" y="283" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">9°</text>
+    <text x="165" y="283" font-family="Arial" font-size="9">9°</text>
+    <text x="138" y="271" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">21°</text>
+    <text x="138" y="271" font-family="Arial" font-size="9">21°</text>
+    <text x="118" y="270" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">12°</text>
+    <text x="118" y="270" font-family="Arial" font-size="9">12°</text>
+    <text x="86" y="275" stroke-width="2" stroke="#ffffff" font-family="Arial" font-size="9">5°</text>
+    <text x="86" y="275" font-family="Arial" font-size="9">5°</text>
+  </g>
+  <g id="labels">
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line1">d = 245.15</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line1">d = 245.15</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line2">d = 240.31</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line2">d = 240.31</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line3">d = 212.68</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line3">d = 212.68</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line4">d = 237.74</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line4">d = 237.74</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line5">d = 315</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line5">d = 315</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line6">d = 211.9</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line6">d = 211.9</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line7">d = 251.52</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line7">d = 251.52</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line8">d = 373.18</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line8">d = 373.18</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line9">d = 363.11</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line9">d = 363.11</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line10">d = 313.17</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line10">d = 313.17</textPath>
+    </text>
+  </g>
+  <text x="3" y="10" font-family="Arial" font-size="10" alignment-baseline="top" align="left">Min Length = 200px</text>
+  <text x="3" y="22" font-family="Arial" font-size="10" alignment-baseline="top" align="left">Max Angle = 44°</text>
+</svg>
