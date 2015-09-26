@@ -5,22 +5,68 @@ function rad(deg) {
 	return deg/360*Math.PI*2;
 }
 
+
+function assertFloat(expected, actual) {
+	if (typeof actual !== typeof expected || Math.abs(expected - actual) > 0.0001) {
+		throw new Error('Expected ' + expected + ', got ' + actual);
+	}
+}
+function assertResult(expected, actual) {
+	if (expected.length !== actual.length) {
+		throw new Error('Segment count differs');
+	}
+	expected.forEach(function(expectedSegment, i) {
+		var actualSegment = actual[i];
+		if (actualSegment.angles.length !== expectedSegment.angles.length) {
+			throw new Error('Different number of angles');
+		}
+		expectedSegment.angles.forEach(function(expectedAngle, i) {
+			var actualAngle = actualSegment.angles[i];
+			var invalid = false;
+			if (typeof expectedAngle !== typeof actualAngle) {
+				invalid = true;
+			} else if (typeof expectedAngle !== 'number') {
+				invalid = expectedAngle !== actualAngle;
+			} else {
+				assertFloat(expectedAngle, actualAngle);
+			}
+			if (invalid) {
+				throw new Error('Incorrect angle at index ' + i + ' (got "' + String(actualAngle) + '", expected ' + String(expectedAngle) + ')');
+			}
+		});
+
+		assertFloat(expectedSegment.length, actualSegment.length);
+		assertFloat(expectedSegment.startDistance, actualSegment.startDistance);
+		assertFloat(expectedSegment.endDistance, actualSegment.endDistance);
+		if (expectedSegment.beginIndex !== actualSegment.beginIndex) throw new Error('Invalid "beginIndex"');
+		if (expectedSegment.endIndex !== actualSegment.endIndex) throw new Error('Invalid "beginIndex"');
+	});
+}
+
+tap.Test.prototype.addAssert('segments', 2, function(expected, actual, message, e) {
+	message = message || 'should be correct';
+	e.wanted = expected;
+	e.actual = actual;
+	try { assertResult(expected, actual); }
+	catch(err) { return this.fail(err.message || message, e); }
+	return this.pass(message, e);
+});
+
 /* array accessor */
 
 tap.test('array accessor: simple straight line', function(t) {
-	t.plan(1);
 	var result = linelabel([[0,0],[1,1],[30,30]], rad(1));
-	t.deepEqual(result, [ {
+	t.segments(result, [ {
 		length: 42.426406871192846,
 		beginIndex: 0,
 		beginDistance: 0,
 		endIndex: 3,
 		endDistance: 42.426406871192846,
 		angles: [ null, 0, null ] } ]);
+	t.end();
 });
 
 tap.test('array accessor: simple curved line', function(t) {
-	t.plan(1);
 	var x = 0, y = 0, a = 0;
 	var pts = [[x,y]];
 	for (var i = 0, n = 10; i < n; i++) {
@@ -30,7 +76,7 @@ tap.test('array accessor: simple curved line', function(t) {
 		pts.push([x,y]);
 	}
 	var result = linelabel(pts, rad(6));
-	t.deepEqual(result, [ {
+	t.segments(result, [ {
 		length: 50,
 		beginIndex: 0,
 		beginDistance: 0,
@@ -48,10 +94,10 @@ tap.test('array accessor: simple curved line', function(t) {
 		   0.08726646259971506,
 		   0.08726646259971761,
 		   null ] } ]);
+	t.end();
 });
 
 tap.test('array accessor: invalid curved line', function(t) {
-	t.plan(1);
 	var x = 0, y = 0, a = 0;
 	var pts = [[x,y]];
 	for (var i = 0, n = 3; i < n; i++) {
@@ -61,7 +107,7 @@ tap.test('array accessor: invalid curved line', function(t) {
 		pts.push([x,y]);
 	}
 	var result = linelabel(pts, rad(2));
-	t.deepEqual(result, [{
+	t.segments(result, [{
 		length: 5,
 		beginDistance: 0,
 		beginIndex: 0,
@@ -83,6 +129,7 @@ tap.test('array accessor: invalid curved line', function(t) {
 		endDistance: 15,
 		angles: [ 0.08726646259971506, null ]
 	}]);
+	t.end();
 });
 
 
@@ -90,19 +137,18 @@ tap.test('array accessor: invalid curved line', function(t) {
 linelabel = require('../xy.js');
 
 tap.test('property accessor: simple straight line', function(t) {
-	t.plan(1);
 	var result = linelabel([{x: 0, y: 0},{x: 1, y: 1},{x: 30, y: 30}], rad(1));
-	t.deepEqual(result, [ {
+	t.segments(result, [ {
 		length: 42.426406871192846,
 		beginIndex: 0,
 		beginDistance: 0,
 		endIndex: 3,
 		endDistance: 42.426406871192846,
 		angles: [ null, 0, null ] } ]);
+	t.end();
 });
 
 tap.test('property accessor: simple curved line', function(t) {
-	t.plan(1);
 	var x = 0, y = 0, a = 0;
 	var pts = [{x: x, y: y}];
 	for (var i = 0, n = 10; i < n; i++) {
@@ -112,7 +158,7 @@ tap.test('property accessor: simple curved line', function(t) {
 		pts.push({x: x, y: y});
 	}
 	var result = linelabel(pts, rad(6));
-	t.deepEqual(result, [ {
+	t.segments(result, [ {
 		length: 50,
 		beginIndex: 0,
 		beginDistance: 0,
@@ -130,10 +176,10 @@ tap.test('property accessor: simple curved line', function(t) {
 		   0.08726646259971506,
 		   0.08726646259971761,
 		   null ] } ]);
+	t.end();
 });
 
 tap.test('property accessor: invalid curved line', function(t) {
-	t.plan(1);
 	var x = 0, y = 0, a = 0;
 	var pts = [{x: x, y: y}];
 	for (var i = 0, n = 3; i < n; i++) {
@@ -143,7 +189,7 @@ tap.test('property accessor: invalid curved line', function(t) {
 		pts.push({x: x, y: y});
 	}
 	var result = linelabel(pts, rad(2));
-	t.deepEqual(result, [{
+	t.segments(result, [{
 		length: 5,
 		beginDistance: 0,
 		beginIndex: 0,
@@ -165,4 +211,5 @@ tap.test('property accessor: invalid curved line', function(t) {
 		endDistance: 15,
 		angles: [ 0.08726646259971506, null ]
 	}]);
+	t.end();
 });
