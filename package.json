@@ -1,6 +1,6 @@
 {
   "name": "linelabel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find straight parts of a line for labeling",
   "main": "index.js",
   "scripts": {
