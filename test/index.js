@@ -11,7 +11,7 @@ function assertFloat(expected, actual) {
 		throw new Error('Expected ' + expected + ', got ' + actual);
 	}
 }
-function assertResult(expected, actual) {
+function assertResult(actual, expected) {
 	if (expected.length !== actual.length) {
 		throw new Error('Segment count differs');
 	}
@@ -43,16 +43,28 @@ function assertResult(expected, actual) {
 	});
 }
 
-tap.Test.prototype.addAssert('segments', 2, function(expected, actual, message, e) {
+tap.Test.prototype.addAssert('segments', 2, function(actual, expected, message, e) {
 	message = message || 'should be correct';
 	e.wanted = expected;
 	e.actual = actual;
-	try { assertResult(expected, actual); }
+	try { assertResult(actual, expected); }
 	catch(err) { return this.fail(err.message || message, e); }
 	return this.pass(message, e);
 });
 
 /* array accessor */
+
+tap.test('array accessor: two point line', function(t) {
+	var result = linelabel([[0,0],[0,1]], rad(1));
+	t.segments(result, [ {
+		length: 1,
+		beginIndex: 0,
+		beginDistance: 0,
+		endIndex: 2,
+		endDistance: 1,
+		angles: [ null, null ] } ]);
+	t.end();
+});
 
 tap.test('array accessor: simple straight line', function(t) {
 	var result = linelabel([[0,0],[1,1],[30,30]], rad(1));
@@ -135,6 +147,18 @@ tap.test('array accessor: invalid curved line', function(t) {
 
 /* property accessor */
 linelabel = require('../xy.js');
+
+tap.test('property accessor: two point line', function(t) {
+	var result = linelabel([{x: 0, y: 0},{x: 0, y: 1}], rad(1));
+	t.segments(result, [ {
+		length: 1,
+		beginIndex: 0,
+		beginDistance: 0,
+		endIndex: 2,
+		endDistance: 1,
+		angles: [ null, null ] } ]);
+	t.end();
+});
 
 tap.test('property accessor: simple straight line', function(t) {
 	var result = linelabel([{x: 0, y: 0},{x: 1, y: 1},{x: 30, y: 30}], rad(1));
