@@ -5,7 +5,7 @@
 
 A simple, no-dependency library for breaking a path into chunks that have a desired level of straightness (defined by max curvature). The main use for this is text labeling in SVGs and web maps.
 
-<img src="https://cdn.rawgit.com/naturalatlas/linelabel/master/misc/sample.svg" width="760" />
+<img src="https://cdn.rawgit.com/naturalatlas/linelabel/master/misc/output.svg" width="760" />
 
 ```sh
 $ npm install linelabel --save

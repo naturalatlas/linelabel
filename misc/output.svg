@@ -19,9 +19,9 @@
 	551,163 551,146 551,138 540,121 526,105 502,99 464,98 441,106 423,121 413,139 400,166 "/>
   <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="21,310 80,293 109,288 134,289 155,298
 	187,307 207,305 314,284 330,268 353,236 306,218 291,243 271,258 242,269 199,278 165,269 138,257 118,256 86,261 21,277 "/>
+  <polyline fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="12,131 327,131"/>
   <polyline fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="617,141 623,90 631,142 637,88 645,143
 	654,87 659,141 "/>
-  <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="12" y1="131" x2="327" y2="131"/>
   <g id="output">
     <path d="M260 156 L482 260" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line1"/>
     <path d="M482 260 L704 168" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line2"/>
@@ -33,6 +33,7 @@
     <path d="M445 194 L459 200 L475 208 L508 214 L525 214 L544 200 L551 182 L551 163 L551 146 L551 138 L540 121 L526 105 L502 99 L464 98 L441 106 L423 121 L413 139 L400 166" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line8"/>
     <path d="M21 310 L80 293 L109 288 L134 289 L155 298 L187 307 L207 305 L314 284 L330 268 L353 236" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line9"/>
     <path d="M306 218 L291 243 L271 258 L242 269 L199 278 L165 269 L138 257 L118 256 L86 261 L21 277" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line10"/>
+    <path d="M12 131 L327 131" fill="none" stroke="#00FF00" stroke-width="4" stroke-dasharray="2,2" id="line11"/>
     <circle r="2" fill="#000000" cx="20" cy="241"/>
     <circle r="1" fill="#ffffff" cx="20" cy="241"/>
     <circle r="2" fill="#000000" cx="100" cy="156"/>
@@ -371,6 +372,14 @@
     <circle r="2" fill="#ffffff" cx="306" cy="218"/>
     <circle r="4" fill="#008000" cx="21" cy="277"/>
     <circle r="2" fill="#ffffff" cx="21" cy="277"/>
+    <circle r="2" fill="#000000" cx="12" cy="131"/>
+    <circle r="1" fill="#ffffff" cx="12" cy="131"/>
+    <circle r="2" fill="#000000" cx="327" cy="131"/>
+    <circle r="1" fill="#ffffff" cx="327" cy="131"/>
+    <circle r="4" fill="#008000" cx="12" cy="131"/>
+    <circle r="2" fill="#ffffff" cx="12" cy="131"/>
+    <circle r="4" fill="#008000" cx="327" cy="131"/>
+    <circle r="2" fill="#ffffff" cx="327" cy="131"/>
     <circle r="2" fill="#000000" cx="617" cy="141"/>
     <circle r="1" fill="#ffffff" cx="617" cy="141"/>
     <circle r="2" fill="#000000" cx="623" cy="90"/>
@@ -584,6 +593,12 @@
     </text>
     <text>
       <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line10">d = 313.17</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" stroke-width="8" stroke="#fff" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line11">d = 315</textPath>
+    </text>
+    <text>
+      <textPath font-size="12" font-family="Arial" startOffset="50%" text-anchor="middle" alignment-baseline="middle" xlink:href="#line11">d = 315</textPath>
     </text>
   </g>
   <text x="3" y="10" font-family="Arial" font-size="10" alignment-baseline="top" align="left">Min Length = 200px</text>
