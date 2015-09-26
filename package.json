@@ -1,12 +1,16 @@
 {
 	"name": "linelabel",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Find straight parts of a line for labeling",
 	"main": "index.js",
 	"scripts": {
 		"coverage": "tap test/index.js --reporter=silent --cov --coverage-report=text-lcov > lcov.info",
 		"build": "node ./misc/compile.js",
 		"test": "npm run build && node test/visual.js && tap test/index.js && eslint --fix ./template.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/naturalatlas/linelabel.git"
 	},
 	"files": [
 		"LICENSE",
